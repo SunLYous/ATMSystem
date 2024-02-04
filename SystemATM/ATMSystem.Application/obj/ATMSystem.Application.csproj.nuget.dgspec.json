@@ -1,0 +1,244 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application\\ATMSystem.Application.csproj": {}
+  },
+  "projects": {
+    "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application.Abstractions\\ATMSystem.Application.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application.Abstractions\\ATMSystem.Application.Abstractions.csproj",
+        "projectName": "ATMSystem.Application.Abstractions",
+        "projectPath": "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application.Abstractions\\ATMSystem.Application.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\nahid\\.nuget\\packages\\",
+        "outputPath": "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nahid\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application.Contracts\\ATMSystem.Application.Contracts.csproj": {
+                "projectPath": "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application.Contracts\\ATMSystem.Application.Contracts.csproj"
+              },
+              "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application.Models\\ATMSystem.Application.Models.csproj": {
+                "projectPath": "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application.Models\\ATMSystem.Application.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\nahid\\.dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application.Contracts\\ATMSystem.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application.Contracts\\ATMSystem.Application.Contracts.csproj",
+        "projectName": "ATMSystem.Application.Contracts",
+        "projectPath": "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application.Contracts\\ATMSystem.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\nahid\\.nuget\\packages\\",
+        "outputPath": "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nahid\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application.Models\\ATMSystem.Application.Models.csproj": {
+                "projectPath": "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application.Models\\ATMSystem.Application.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\nahid\\.dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application.Models\\ATMSystem.Application.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application.Models\\ATMSystem.Application.Models.csproj",
+        "projectName": "ATMSystem.Application.Models",
+        "projectPath": "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application.Models\\ATMSystem.Application.Models.csproj",
+        "packagesPath": "C:\\Users\\nahid\\.nuget\\packages\\",
+        "outputPath": "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nahid\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\nahid\\.dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application\\ATMSystem.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application\\ATMSystem.Application.csproj",
+        "projectName": "ATMSystem.Application",
+        "projectPath": "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application\\ATMSystem.Application.csproj",
+        "packagesPath": "C:\\Users\\nahid\\.nuget\\packages\\",
+        "outputPath": "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nahid\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application.Abstractions\\ATMSystem.Application.Abstractions.csproj": {
+                "projectPath": "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application.Abstractions\\ATMSystem.Application.Abstractions.csproj"
+              },
+              "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application.Contracts\\ATMSystem.Application.Contracts.csproj": {
+                "projectPath": "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application.Contracts\\ATMSystem.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\nahid\\.dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

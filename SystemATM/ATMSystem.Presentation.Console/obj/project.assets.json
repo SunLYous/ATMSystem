@@ -1,0 +1,269 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Spectre.Console/0.48.1-preview.0.20": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.5"
+        },
+        "compile": {
+          "lib/net7.0/Spectre.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Spectre.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Memory/4.5.5": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "ATMSystem.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "ATMSystem.Application.Abstractions": "1.0.0",
+          "ATMSystem.Application.Contracts": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ATMSystem.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ATMSystem.Application.dll": {}
+        }
+      },
+      "ATMSystem.Application.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "ATMSystem.Application.Contracts": "1.0.0",
+          "ATMSystem.Application.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ATMSystem.Application.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ATMSystem.Application.Abstractions.dll": {}
+        }
+      },
+      "ATMSystem.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "ATMSystem.Application.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ATMSystem.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ATMSystem.Application.Contracts.dll": {}
+        }
+      },
+      "ATMSystem.Application.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ATMSystem.Application.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ATMSystem.Application.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+      "sha512": "cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Spectre.Console/0.48.1-preview.0.20": {
+      "sha512": "23W63kn2qy87On5kb7TGfLuJdY5SFurQfqc7iwQi3I1QZNdcK6yGcc0ZlgnU6NKuJQmCd2OO/F/QcsOoeDYUuA==",
+      "type": "package",
+      "path": "spectre.console/0.48.1-preview.0.20",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Spectre.Console.dll",
+        "lib/net6.0/Spectre.Console.xml",
+        "lib/net7.0/Spectre.Console.dll",
+        "lib/net7.0/Spectre.Console.xml",
+        "lib/net8.0/Spectre.Console.dll",
+        "lib/net8.0/Spectre.Console.xml",
+        "lib/netstandard2.0/Spectre.Console.dll",
+        "lib/netstandard2.0/Spectre.Console.xml",
+        "small-logo.png",
+        "spectre.console.0.48.1-preview.0.20.nupkg.sha512",
+        "spectre.console.nuspec"
+      ]
+    },
+    "System.Memory/4.5.5": {
+      "sha512": "XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "type": "package",
+      "path": "system.memory/4.5.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.5.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "ATMSystem.Application/1.0.0": {
+      "type": "project",
+      "path": "../ATMSystem.Application/ATMSystem.Application.csproj",
+      "msbuildProject": "../ATMSystem.Application/ATMSystem.Application.csproj"
+    },
+    "ATMSystem.Application.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../ATMSystem.Application.Abstractions/ATMSystem.Application.Abstractions.csproj",
+      "msbuildProject": "../ATMSystem.Application.Abstractions/ATMSystem.Application.Abstractions.csproj"
+    },
+    "ATMSystem.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../ATMSystem.Application.Contracts/ATMSystem.Application.Contracts.csproj",
+      "msbuildProject": "../ATMSystem.Application.Contracts/ATMSystem.Application.Contracts.csproj"
+    },
+    "ATMSystem.Application.Models/1.0.0": {
+      "type": "project",
+      "path": "../ATMSystem.Application.Models/ATMSystem.Application.Models.csproj",
+      "msbuildProject": "../ATMSystem.Application.Models/ATMSystem.Application.Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "ATMSystem.Application >= 1.0.0",
+      "Spectre.Console >= 0.48.1-preview.0.20"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\nahid\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Presentation.Console\\ATMSystem.Presentation.Console.csproj",
+      "projectName": "ATMSystem.Presentation.Console",
+      "projectPath": "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Presentation.Console\\ATMSystem.Presentation.Console.csproj",
+      "packagesPath": "C:\\Users\\nahid\\.nuget\\packages\\",
+      "outputPath": "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Presentation.Console\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\nahid\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application\\ATMSystem.Application.csproj": {
+              "projectPath": "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application\\ATMSystem.Application.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "Spectre.Console": {
+            "target": "Package",
+            "version": "[0.48.1-preview.0.20, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Users\\nahid\\.dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

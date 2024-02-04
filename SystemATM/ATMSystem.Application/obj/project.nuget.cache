@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jB6zQil7oUXL+m9gPZN4LwLqpf9Pr+p9Hzn63LEFn0HfqJ1AT2XHtSwdvOJelEabzGgBChr3QfcMt9HKxxYDwQ==",
+  "success": true,
+  "projectFilePath": "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Application\\ATMSystem.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nahid\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

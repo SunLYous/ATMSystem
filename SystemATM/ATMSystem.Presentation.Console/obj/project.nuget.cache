@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ysCN2ZuDXP3ZBF6OuYFdX04XFC2S3wMtYdTttZySG+CEfWYBrZ5GZ4fgx+9LJAl2Mj5bwW6XQPKbG5XHT38T1w==",
+  "success": true,
+  "projectFilePath": "D:\\labs3sem\\ATMSystem\\SystemATM\\ATMSystem.Presentation.Console\\ATMSystem.Presentation.Console.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nahid\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\nahid\\.nuget\\packages\\spectre.console\\0.48.1-preview.0.20\\spectre.console.0.48.1-preview.0.20.nupkg.sha512",
+    "C:\\Users\\nahid\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
+  ],
+  "logs": []
+}
